@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Cedarville+Cursive&display=swap');
+
+header{
+    background-image: url(../img/planches.jpg);
+}
+main{
+    margin: 0 auto;
+}
+
+.image{
+    width: 20%;
+    margin: auto;
+}
+
+.image img{
+    width: 100%;
+}
+
+.top{
+    margin: 0 auto;
+    min-height: 100px;
+    width: 100%;
+    font-family:  'Caveat Brush', 'cursive';
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    margin-top: 5%;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline; 
+}
+h2, h3, h4,h5{
+    text-align: center;
+    text-decoration: underline;
+    font-family:  'Caveat Brush', 'cursive';
+}
+
+.image_asperge{
+    width: 76%;
+    height: 80%;
+    border-radius: 5%;
+    margin-left: 14%;
+}
+.image1, .image2{
+    width: 95%;
+    height: 90%;
+    border-radius: 5%;
+    margin-left: 15%;
+    
+}
+.col-s {
+	width: 48%;
+}
+
+.col-i {
+	width: 28%;
+}
+
+.col-m {
+	width: 100%;
+}
+
+.col-l {
+	width: 98%;
+}
+
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    
+
+    font-family:  'Caveat Brush', 'cursive';
+}
+
+nav a{
+    color:	#E55094;
+    padding: 20px;
+    text-align: center;
+}
+.all_natural{
+    color:	#E55094;
+}
+
+.Craft_liquor{
+    color:	#E55094;
+}
+.moule{
+    width: 40%;
+    height: 60%;
+    border-radius: 5%;
+    margin-left: 25%;
+}
+
+footer{
+    background-image: url(../img/motif.jpg); 
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+.icone{
+    width: 2%;
+    height: 2%;
+    color: #E55094;
+    text-align: right;
+    
+}
+
+@media screen and (max-width: 430px) {
+	.container {
+		display: inline;
+	}
+
+	.col-s {
+		width: 98%;
+	}
+    .col-i {
+		width: 80%;
+	}
+}
+
+   
+
+
+
+
+ 
